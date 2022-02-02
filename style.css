@@ -93,7 +93,13 @@ header img {
     align-items: baseline;
 }
 
-#select_country {
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* #select_country {
     padding-right: 120px;
     display: block;
     height: 30px;
@@ -105,7 +111,7 @@ header img {
 
 #visa_input {
     padding-left: 40px;
-}
+} */
 
 form button {
     width: 100%;
