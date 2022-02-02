@@ -26,7 +26,14 @@
             <div id="column1">
                 <div id="column1_row1">
                     <h1>UAE-Online</h1>
-                    <h4>$120 Type goes here</h4>
+
+                    <div id="img_text">
+                        <img src="img/price.png" alt="price">
+                        <p> $120</p>
+                        <img src="img/vector.png" alt="vector">
+                        <p>Type goes here</p>
+
+                    </div>
 
                     <p>
                         <strong>Residents of more than 180 countries can apply for a visa
@@ -60,32 +67,39 @@
             <strong>
               <div class="calculate_form">
                 <form>
+                  <div>
+                    <label for="Traveling form"> Traveling form</label>
+                    <br />
+                    <select name="Country" id="select_country">
+                      <option value="india">India</option>
+                      <option value="America">America</option>
+                      <option value="UK">UK</option>
+                      <option value="Cannada">Cannada</option>
+                    </select>
+                  </div>
 
-                      <label for="Traveling form"> Traveling form</label>
-                      <br />
-                      <select name="Country" id="select_country">
-                        <option value="india">India</option>
-                        <option value="America">America</option>
-                        <option value="UK">UK</option>
-                        <option value="Cannada">Cannada</option>
-                      </select>
-               
-                      <label for="Visa Type"> Visa Type</label>
-                      <br />
-                      <select name="Visa" id="visa">
-                        <option value="Tourist">Tourist</option>
-                        <option value="Visa on arrival">Visa on arrival</option>
-                        <option value="Bussiness">Bussiness</option>
-                      </select>
-            
-                  <label for="Applying For"> Applying For</label>
-                  <select name="no_of_days" id="no_of_days">
-                    <option value="1_day">1 Day</option>
-                    <option value="7_days">7 Days</option>
-                    <option value="1_month">1 Month</option>
-                    <option value="6_month">6 Months</option>
-                  </select>
-
+                  <div>
+                    <label for="Visa Type"> Visa Type</label>
+                    <br />
+                    <select name="Visa" id="visa">
+                      <option value="Tourist">Tourist</option>
+                      <option value="Visa on arrival">Visa on arrival</option>
+                      <option value="Bussiness">Bussiness</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="Applying For"> Applying For</label>
+                    <select name="no_of_days" id="no_of_days">
+                      <option value="1_day">1 Day</option>
+                      <option value="7_days">7 Days</option>
+                      <option value="1_month">1 Month</option>
+                      <option value="6_month">6 Months</option>
+                    </select>
+                  </div>
+                  <div>
+                      <br>
+                        <input type="number" name="no" id="input_no" placeholder="1">
+                  </div>
                   <button type="submit">Calculate</button>
                 </form>
               </div>
