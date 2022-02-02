@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -15,6 +16,133 @@ header {
 }
 
 header img {
-    width: 100vw;
-    height: 250px;
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Main content section */
+
+#main-content {
+    border: 2px solid red;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.content-columns {
+    border: 2px solid green;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+/* column 1 all  */
+
+#column1 {
+    /* border: 2px solid aqua; */
+    margin-top: 5px;
+    padding: 0px;
+    width: 40%;
+}
+
+
+/* colum 1 row`1 */
+
+#column1_row1 h1 {
+    padding: 12px 0px;
+    font-size: 2rem;
+}
+
+#column1_row1 h4 {
+    padding: 8px 0px;
+    font-size: 0.8rem;
+}
+
+#column1_row1 p {
+    padding: 8px 0px;
+    font-size: 1rem;
+}
+
+#column1_row2 h2 {
+    margin: 11px 0px;
+    font-size: 1.8rem;
+}
+
+
+/* column 2 all */
+
+#column2 {
+    /* border: 2px solid aqua; */
+    margin-top: 5px;
+    padding: 0px;
+    width: 40%;
+}
+
+#column2_row1 h2 {
+    margin: 12px 0px;
+}
+
+.form_row1 {
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+
+#select_country {
+    padding-right: 120px;
+    display: block;
+    height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2px;
+}
+
+#visa_input {
+    padding-left: 40px;
+}
+
+form button {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+    align-content: center;
+    text-align: center;
+    font-size: 1rem;
+    height: 30px;
+    margin: 17px 0px;
+}
+
+
+/* column 2 row2 */
+
+#column2_row2 {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    background-color: rgb(210, 238, 253);
+    padding: 28px 5px;
+}
+
+.calculate_column {
+    display: flex;
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 9px 0px;
+}
+
+.calculate_column p {
+    width: 100%;
+}
+
+.calculate_column p:nth-child(2) {
+    text-align: right;
+    padding-right: 20px;
 }
